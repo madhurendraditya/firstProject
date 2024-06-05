@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+body{
+  
+}
+.navbar ul{
+    display: flex;
+}
+ul li{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    list-style: none;
+    margin-bottom: 40px;
+}
+section{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.container::before{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content:"";
+    background-image: url(https://source.unsplash.com/random);
+    z-index: -1;
+    opacity: 0.65;
+}
